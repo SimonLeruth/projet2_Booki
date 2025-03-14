@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 :root {
@@ -56,6 +57,33 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+/****** Header  ******/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 68px;
+    margin-top: 16px;
+}
+
+.img_logo {
+    height: 19px;
+    padding: 30px 50px;
+}
+
+.active_page {
+    border-top: #0065fc 2px solid;
+    padding-top: 14px;
+    color: #0065fc;
 }
 
 /****** Hebergements And Populaires ***********/
