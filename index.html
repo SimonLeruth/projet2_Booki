@@ -30,18 +30,51 @@
             </nav>
         </header>
         <main>
-            <section class="search">
-                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-                <p>En plein centre-ville ou en pleine nature</p>
-                <form method="get" action="#"></form>
-                    <div class="forms_search">
-                        <div class="icone_search">
-                            <i class="fa-solid fa-location-dot"></i>
+            <section class="search_and_filters">
+                <div class="search">
+                    <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                    <p>En plein centre-ville ou en pleine nature</p>
+                    <form method="get" action="#"></form>
+                        <div class="forms_search">
+                            <div class="icone_search">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <input type="text" id="input_search" value="Marseille, France">
+                            <input type="submit" value="Rechercher" id="button_search">
                         </div>
-                        <input type="text" id="input_search" value="Marseille, France">
-                        <input type="submit" value="Rechercher" id="button_search">
-                    </div>
-                </form>
+                    </form>
+                </div>
+                <div class="allFilters">
+                    <h3 class="title_filters">Filtres</h3>
+                    <a href="#">
+                        <div class="filters">
+                            <i class="fa-solid fa-money-bill-wave"></i>
+                            <h3>Économique</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="filters">
+                            <i class="fa-solid fa-person"></i>
+                            <h3>Familial</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="filters">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>Romantique</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="filters">
+                            <i class="fa-solid fa-fire"></i>
+                            <h3>Nos pépites </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <i class="fa-solid fa-info" id="icone_information"></i>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
             </section>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
@@ -49,8 +82,10 @@
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
-                        <h2 class="section-title">Les plus populaires</h2>
-                        <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+                        <a href="#">
+                            <h2 class="section-title">Les plus populaires</h2>
+                            <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+                        </a>
                     </div>
                     <div class="populaires-cards">
                         <a href="#">
