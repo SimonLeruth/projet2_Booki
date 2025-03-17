@@ -214,14 +214,22 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
+.hebergements-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
-    width: 30%;
 }
 
 .hebergements-cards .card-content .card-txt h3 {
+    padding: 8px 0px;
+}
+
+.hebergements-cards .card-subtitle {
     padding-bottom: 8px;
 }
 
@@ -234,10 +242,10 @@ nav ul li a:hover {
 
 .hebergements-cards .card-content {
     padding: 5px 15px ;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 8px;
+}
+
+.hergements-more {
+    margin-top: 30px;
 }
 
 /****** Populaires ***********/
