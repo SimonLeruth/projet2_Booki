@@ -10,6 +10,10 @@
     --filter-bg-color: #DEEBFF;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .fa-solid {
     color: var(--main-color);
 }
@@ -203,7 +207,7 @@ nav ul li a:hover {
 }
 
 /****** Hebergements ***********/
-.hebergements {
+#hebergements {
     width: 65%;
 }
 
@@ -292,12 +296,12 @@ nav ul li a:hover {
 
 /****** Activites  ******/
 
-.activities {
+#activities {
     margin-bottom: 35px;
     padding: 30px;
 }
 
-.activities h2 {
+#activities h2 {
     margin-bottom: 30px;
 }
 
