@@ -232,6 +232,7 @@ nav ul li a:hover {
 
 .hebergements-cards .card-subtitle {
     padding-bottom: 8px;
+    font-size: 14px;
 }
 
 .hebergements-cards img {
@@ -288,6 +289,7 @@ nav ul li a:hover {
 
 .populaires-cards .card-subtitle {
     margin: 0;
+    font-size: 14px;
 }
 
 .populaires-cards .card-rating {
@@ -303,6 +305,7 @@ nav ul li a:hover {
 
 #activities h2 {
     margin-bottom: 30px;
+    font-size: 22px;
 }
 
 .activities-cards {
@@ -328,6 +331,29 @@ nav ul li a:hover {
     padding: 20px 19px;
     font-size: 16px;
 }
+
+/****** Footer  ******/
+
+.footer {
+    background-color: #F2F2F2;
+    display: flex;
+}
+
+.bloc-footer ul {
+    margin-top: 0;
+    padding-left: 0;
+    display: block;
+}
+
+.bloc-footer ul li {
+    padding-top: 15px;
+}
+
+.bloc-footer {
+    padding: 20px;
+    width: 33%;
+}
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
