@@ -92,9 +92,6 @@ ul {
 nav ul li a:hover {
     border-top: #0065fc 2px solid;
     padding-top: 14px;
-}
-
-.active_page {
     color: #0065fc;
 }
 
