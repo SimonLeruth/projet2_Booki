@@ -318,7 +318,8 @@ nav ul li a:hover {
     flex-direction: column;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: calc(25% - 30px);
+    width: calc(25% - 22.5px);
+    padding: 0;
 }
 
 .activities-cards img {
