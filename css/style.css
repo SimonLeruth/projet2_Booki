@@ -90,7 +90,7 @@ ul {
 
 .img_logo {
     height: 19px;
-    padding: 30px 50px;
+    padding: 30px 0px;
 }
 
 nav ul li a:hover {
@@ -215,10 +215,16 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
+.hebergements-cards a {
+    display: block;
+    width: calc(33.33% - 22.5px);
+}
+
 .hebergements-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 30px;
+    width: 100%;
 }
 
 .hebergements-cards .card {
@@ -313,12 +319,16 @@ nav ul li a:hover {
     gap: 30px;
 }
 
+.activities-cards a {
+    display: block;
+    width: calc(25% - 22.5px);
+}
+
 .activities-cards .card {
     display: flex;
     flex-direction: column;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: calc(25% - 22.5px);
     padding: 0;
 }
 
