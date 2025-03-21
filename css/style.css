@@ -366,7 +366,7 @@ nav ul li a:hover {
         flex-direction: column;
     }
 
-    .hebergements {
+    #hebergements {
         width: 100%;
     }
 
@@ -392,6 +392,11 @@ nav ul li a:hover {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .activities-cards img {
+        height: 200px;
+    }
+
 }
 
 /* Small devices (phones, less than 768px) */
