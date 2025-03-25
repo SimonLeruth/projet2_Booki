@@ -510,12 +510,6 @@ nav ul li a:hover {
         border-radius: 0px;
     }
 
-
-    #hebergements {
-        order: 1;
-        background-color: white;
-    }
-
     .populaires {
         order: 0;
         margin-bottom: 15px;
@@ -537,4 +531,19 @@ nav ul li a:hover {
     .populaires-cards .card {
         margin: 0;
     }
+
+    #hebergements {
+        order: 1;
+        background-color: white;
+    }
+
+    .hebergements-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hebergements-cards a {
+        width: 100%;
+    }
+
 }
