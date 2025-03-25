@@ -319,6 +319,7 @@ nav ul li a:hover {
 .activities-cards {
     display: flex;
     gap: 30px;
+    align-items: stretch;
 }
 
 .activities-cards a {
@@ -329,6 +330,8 @@ nav ul li a:hover {
 .activities-cards .card {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding: 0;
@@ -341,6 +344,9 @@ nav ul li a:hover {
 }
 
 .activities-cards .card h3 {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
     padding: 20px 19px;
     font-size: 16px;
 }
