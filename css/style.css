@@ -355,11 +355,13 @@ nav ul li a:hover {
 .bloc-footer ul {
     margin-top: 0;
     padding-left: 0;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.bloc-footer ul li {
-    padding-top: 15px;
+.bloc-footer h3 {
+    padding-bottom: 15px;
 }
 
 .bloc-footer {
@@ -554,5 +556,5 @@ nav ul li a:hover {
     .activities-cards a {
         width: 100%;
     }
-
+    
 }
