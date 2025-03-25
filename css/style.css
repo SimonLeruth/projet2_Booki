@@ -546,4 +546,13 @@ nav ul li a:hover {
         width: 100%;
     }
 
+    .activities-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .activities-cards a {
+        width: 100%;
+    }
+
 }
