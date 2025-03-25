@@ -556,5 +556,15 @@ nav ul li a:hover {
     .activities-cards a {
         width: 100%;
     }
+
+    .footer {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .bloc-footer {
+        padding-top: 0px;
+        width: 100%;
+    }
     
 }
