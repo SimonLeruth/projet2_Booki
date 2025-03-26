@@ -232,6 +232,7 @@ nav ul li a:hover {
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .hebergements-cards .card-content .card-txt h3 {
@@ -319,7 +320,6 @@ nav ul li a:hover {
 .activities-cards {
     display: flex;
     gap: 30px;
-    align-items: stretch;
 }
 
 .activities-cards a {
